@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kavya Chugh - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            color: white;
+            text-align: center;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid white;
+            margin-top: 10px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 50px;
+        }
+        h2 {
+            color: #ffdd57;
+        }
+        .container {
+            max-width: 80%;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            margin: 15px;
+            padding: 20px;
+            width: 300px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        a {
+            color: #ffdd57;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kavya Chugh</h1>
+        <img src="profile.jpg" alt="Kavya Chugh" class="profile-pic">
+        <p>Computer Science and Engineering Student | Web Developer</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>B.Tech student at University of Petroleum and Energy Studies, Dehradun, with a passion for web development, software engineering, and cloud computing.</p>
+    </section>
+    
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="container">
+            <div class="card">Languages: HTML, C, C++, React</div>
+            <div class="card">Development: CSS</div>
+            <div class="card">Database: MySQL</div>
+            <div class="card">Tools: VSCode, Git, GitHub</div>
+            <div class="card">Data Structures and Algorithms</div>
+            <div class="card">CS Fundamentals: Networks, OS, DBMS, OOP</div>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="container">
+            <div class="card"><h3>Trafficking of Endangered Species</h3><p>Used computational logic and machine learning to analyze illegal wildlife trade.</p></div>
+            <div class="card"><h3>Green Street India</h3><p>Developed a frontend for reporting unclean areas, deployed using AWS.</p></div>
+            <div class="card"><h3>CineCast</h3><p>Built a multithreaded Java server for synchronized video watching.</p></div>
+        </div>
+    </section>
+    
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <div class="container">
+            <div class="card">Treasurer at ACM-W Student Chapter (2023-24)</div>
+            <div class="card">Chairperson at ACM-W Student Chapter (2024-25)</div>
+            <div class="card">AWS Certified in Cloud Architecting</div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:kavyachugh1@gmail.com">kavyachugh1@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/KavyaChugh" target="_blank">KavyaChugh</a></p>
+        <p>LinkedIn: <a href="http://linkedin.com/in/kavyachugh" target="_blank">Kavya Chugh</a></p>
+    </section>
+</body>
+</html>
